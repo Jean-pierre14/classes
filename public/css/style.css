@@ -17,5 +17,6 @@
 .body section{
     float: right;
     width: 80%;
+    padding: 10px;
     display: block;
 }

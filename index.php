@@ -22,7 +22,7 @@
         </div>
         <div class="body">
             <aside>
-                <h3>aside side</h3>
+                <!-- <h3>aside side</h3> -->
                 <form action="" method="post" class="inline-form">
                     <input type="search" name="search" id="search" placeholder="Searching..." class="form-control">
                     <input type="submit" value="Search" class="btn btn-success">
@@ -30,7 +30,8 @@
                 <button class="my-3 btn btn-sm btn-block btn-primary">Add class</button>
             </aside>
             <section>
-                <h3>section side</h3>
+                <!-- <h3>section side</h3> -->
+                <p class="alert alert-warning">data</p>
             </section>
         </div>
     </div>
