@@ -27,11 +27,21 @@
                     <input type="search" name="search" id="search" placeholder="Searching..." class="form-control">
                     <input type="submit" value="Search" class="btn btn-success">
                 </form>
-                <button class="my-3 btn btn-sm btn-block btn-primary">Add class</button>
+                <a href="?add=addClass" class="my-3 btn btn-sm btn-block btn-primary">Add class</a>
             </aside>
             <section>
                 <!-- <h3>section side</h3> -->
-                <p class="alert alert-warning">data</p>
+                <?php if(isset($_GET['add'])):?>
+                    <h3>Add form</h3>
+                    <?php if($_GET['add'] == 'addClass'):?>
+                        <h3>add class</h3>
+                    <?php elseif($_GET['add'] == 'addstudent'):?>
+                        <h4>add student</h4>
+                    <?php endif;?>    
+
+                <?php else:?>
+                        <p class="alert alert-warning">data</p>
+                <?php endif;?>
             </section>
         </div>
     </div>
