@@ -27,7 +27,10 @@
                     <input type="search" name="search" id="search" placeholder="Searching..." class="form-control">
                     <input type="submit" value="Search" class="btn btn-success">
                 </form>
-                <a href="?add=addClass" class="my-3 btn btn-sm btn-block btn-primary">Add class</a>
+                <div class="btn-group">
+                    <a href="?add=addClass" class="my-3 btn btn-sm btn-block btn-primary">Add class</a>
+                    <a href="?add=addstudent" class="my-3 btn btn-sm btn-block btn-info">Add Student</a>
+                </div>
             </aside>
             <section>
                 <!-- <h3>section side</h3> -->
@@ -38,7 +41,6 @@
                     <?php elseif($_GET['add'] == 'addstudent'):?>
                         <h4>add student</h4>
                     <?php endif;?>    
-
                 <?php else:?>
                         <p class="alert alert-warning">data</p>
                 <?php endif;?>
