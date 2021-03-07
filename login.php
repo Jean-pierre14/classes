@@ -28,7 +28,7 @@
                         <div class="form-group">
                             <button type="submit" class="btn btn-sm btn-success">Log In</button>
                         </div>
-                        <p>J'ai pas un <a href="regestration.php">compte!</a> </p>
+                        <p class="text-center">J'ai pas un <a href="registration.php">compte!</a> </p>
                     </form>
                 </div>
             </div>
