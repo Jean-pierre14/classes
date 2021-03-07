@@ -1,3 +1,17 @@
+<?php
+
+$error = $_SERVER['REDIRECT_STATUS'];
+
+$error_title = '';
+$error_message = '';
+
+if($error == 404){
+    $error_title = "404 page not Found";
+    $error_message = "This file doesn't existe";
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +23,8 @@
 <body>
     <div class="container-fluid">
         <div class="container text-center">
-            <h3>page not found</h3>
-            <h1>404</h1>
+            <?= $error_title; ?>
+            <?= $error_message; ?>
             <a href="">Back</a>
         </div>
     </div>
