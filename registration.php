@@ -45,6 +45,7 @@
                             <div class="form-group">
                                 <button type="submit" class="btn btn-success">Submit</button>
                             </div>
+                            <p>J'ai un <a href="login.php">compte!</a> </p>
                         </form>
                     </div>
                 </div>
