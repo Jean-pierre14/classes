@@ -1,4 +1,4 @@
-
+<?php include './header.php';?>
     <div class="container">
         <div class="jumbotron">
             <h2>Welcome
