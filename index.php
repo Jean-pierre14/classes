@@ -6,6 +6,7 @@
             </h2>
         </div>
         <div class="body">
+            <h2>one page than can containe all data</h2>
             <aside>
                 <!-- <h3>aside side</h3> -->
                 <form action="" method="post" class="inline-form">
