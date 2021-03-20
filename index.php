@@ -9,11 +9,13 @@
             <h2>one page than can containe all data</h2>
             <h2>le 16 mars 2021 au boulot on m'a demander de revoir le siteweb de l'ecole</h2>
             <aside>
+            
                 <!-- <h3>aside side</h3> -->
                 <form action="" method="post" class="inline-form">
                     <input type="search" name="search" id="search" placeholder="Searching..." class="form-control">
                     <input type="submit" value="Search" class="btn btn-success">
                 </form>
+
                 <div class="btn-group">
                     <a href="?add=addClass" class="my-3 btn btn-sm btn-block btn-primary">Add class</a>
                     <a href="?add=addstudent" class="my-3 btn btn-sm btn-block btn-info">Add Student</a>
